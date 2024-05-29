@@ -7,7 +7,6 @@ import GingerLogoImage from "../../../assets/Images/ginger-logo.png";
 import "./UserHomePage.css";
 const UserHomePage = () => {
   const { userInfo } = useSelector((state) => state.authentication);
-  console.log(userInfo);
   const [userLogoutApiCall] = useUserLogoutMutation();
   const dispatch = useDispatch();
   const navigate = useNavigate();

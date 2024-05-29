@@ -15,7 +15,6 @@ import { toast } from "react-toastify";
 const AdminHomePage = () => {
   const { adminInfo } = useSelector((state) => state.authentication);
   const [users, setUsers] = useState([]);
-  console.log(users, "this is user detals");
 
   const dispatch = useDispatch();
   const navigate = useNavigate();
