@@ -1,0 +1,43 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.login-form button {
+  padding: 10px;
+  background-color: #ff7e5f;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #feb47b;
+}
+
+.registerRedirect {
+  text-align: center;
+}
+.selectRole {
+  display: flex;
+  gap: 15px;
+}
+.radioGroup {
+  display: flex;
+  margin-top: 16px;
+  gap: 15px;
+}
+
+@media (max-width: 768px) {
+  .login-card {
+    flex-direction: column;
+  }
+}

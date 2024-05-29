@@ -1,0 +1,45 @@
+:root {
+  --color-left: #221b24;
+  --color-middle: #6b5341;
+  --color-right: #2c4f7b;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(
+    to right,
+    var(--color-left) 25%,
+    var(--color-middle) 55%,
+    var(--color-right) 100%
+  );
+}
+
+.main {
+  margin-left: 300px;
+  padding: 2px 0px;
+}
+.right-side-content {
+  max-width: 1200px;
+  margin: 15px 60px 0px 60px;
+}
+
+
+@media (max-width: 768px) {
+  .main {
+    margin-left: 0;
+  }
+  .right-side-content {
+    padding: 0 10px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    margin-left: 0;
+  }
+  .right-side-content {
+    max-width: 100%;
+  }
+}
