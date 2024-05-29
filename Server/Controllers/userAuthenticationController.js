@@ -1,7 +1,7 @@
 import User from "../Models/userSchema.js";
 import bcrypt from "bcrypt";
 import { validateUserRegistration } from "../utils/registerValidation.js";
-import { generateUserToken } from "../Utils/generateToken.js";
+import {generateUserToken} from "../utils/generateToken.js"
 
 //USER REGISTRATION
 export const userRegistration = async (req, res) => {

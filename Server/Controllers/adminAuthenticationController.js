@@ -1,5 +1,5 @@
 import Admin from "../Models/adminSchema.js";
-import { generateAdminToken } from "../Utils/generateToken.js";
+import { generateAdminToken } from "../utils/generateToken.js";
 
 // ADMIN LOGIN
 export const adminLogin = async (req, res) => {
